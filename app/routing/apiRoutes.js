@@ -1,4 +1,4 @@
-var friendData 		= require('../data/friends.js');
+var friends 		= require('../data/friends.js');
 var path 			= require('path');
 
 // API GET Requests - when users "visit" a page. 
@@ -10,10 +10,6 @@ module.exports = function(app) {
 	app.get('/api/friends', function(req, res){
 		res.json(friends);
 	});
-
-//API POST Request-handles when user submits a form & thus submits data to the server.
-// In each of the below cases, when a user submits form data (a JSON object)
-// ...the JSON is pushed to the appropriate Javascript array
 
 
 	app.post('/api/friends', function(req, res){
