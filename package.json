@@ -1,0 +1,24 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "THis is HW11",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andytran78/FriendFinder.git"
+  },
+  "author": "Andy Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andytran78/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/Andytran78/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
